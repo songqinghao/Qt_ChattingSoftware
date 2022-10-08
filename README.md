@@ -8,6 +8,7 @@ This is my Qt and C++ chat software, the development environment for vs2017 + qt
 
 # attention
 用到自己的环境中需要调整的地方
+
 1.提示找不到工作集记得调整到自己已经下载好的
 
 2.提示找不到Qt5Cored.dll等等dll时记得将项目属性——》Qt Project Setting中Qt Installation改成你自己的（我是msvc2017->QT5.12）
