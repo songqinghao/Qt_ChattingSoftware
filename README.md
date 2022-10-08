@@ -3,7 +3,9 @@ This is my Qt and C++ chat software, the development environment for vs2017 + qt
 
 # compile Environment
 1.VS2017
+
 2.Qt5.12.1 MSVC 2017
+
 3.MySQL 8.0.30
 
 # attention
