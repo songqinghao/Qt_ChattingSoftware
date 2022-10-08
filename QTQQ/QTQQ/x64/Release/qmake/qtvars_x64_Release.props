@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;WIN64;QT_WEBENGINE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_QUICK_LIB;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_WEBCHANNEL_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_SQL_LIB;QT_POSITIONING_LIB;QT_XML_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:\Users\???\AppData\Local\Temp\gpl30h5m.1xu;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWebEngine;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWebEngineWidgets;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWebEngineCore;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtQuick;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtPrintSupport;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtGui;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtWebChannel;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtQml;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtNetwork;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtSql;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtPositioning;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtXml;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\include\QtCore;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\qtmaind.lib;shell32.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5WebEngined.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5WebEngineWidgetsd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5WebEngineCored.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Quickd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5PrintSupportd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5WebChanneld.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Qmld.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Networkd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Sqld.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Positioningd.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Xmld.lib;D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib\Qt5Cored.lib</Qt_LIBS_>
+<Qt_LIBPATH_>D:\Qt\Qt5.9.6\5.9.6\msvc2017_64\lib;C:\openssl\lib;C:\Utils\my_sql\my_sql\lib;C:\Utils\postgresql\pgsql\lib</Qt_LIBPATH_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);x64\Release\moc;x64\Release\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2017_64</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;network;sql;webchannel;webengine;webenginewidgets;xml</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >debug</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>

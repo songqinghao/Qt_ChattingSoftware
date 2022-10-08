@@ -1,0 +1,9 @@
+INSERT INTO `tab_accounts` VALUES (10002, 'rener', 'rener');
+INSERT INTO `tab_accounts` VALUES (10003, 'rensan', 'rensan');
+INSERT INTO `tab_accounts` VALUES (10001, 'renyi', 'renyi');
+INSERT INTO `tab_accounts` VALUES (10008, 'shier', 'shier');
+INSERT INTO `tab_accounts` VALUES (10009, 'shisan', 'shisan');
+INSERT INTO `tab_accounts` VALUES (10007, 'shiyi', 'shiyi');
+INSERT INTO `tab_accounts` VALUES (10005, 'yaner', 'yaner');
+INSERT INTO `tab_accounts` VALUES (10006, 'yansan', 'yansan');
+INSERT INTO `tab_accounts` VALUES (10004, 'yanyi', 'yanyi');
