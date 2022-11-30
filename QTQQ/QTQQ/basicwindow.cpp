@@ -46,7 +46,7 @@ void BasicWindow::setTitleBarTitle(const QString& title, const QString&icon) {
 void BasicWindow::initTitleBar(ButtonType buttonType) {
 	_titleBar = new TitleBar(this);
 	_titleBar->setButtonType(buttonType);//设置按钮类型
-	_titleBar->move(0, 0);				//讲窗口调整能到0，0
+	_titleBar->move(0, 0);				//将窗口调整到0，0
 
 	//各个信号与槽连接的建立
 	connect(_titleBar, SIGNAL(signalButtonMinClicked()), this, SLOT(onButtonMinClicked()));

@@ -214,6 +214,7 @@ void TitleBar::loadStyleSheet(const QString& sheetName) {
 	QFile file(":/Resources/QSS/" + sheetName + ".css");	//sheetName在这就是表示titlebar
 	if (file.open(QFile::ReadOnly)) {//只读
 		QString styleSheet = this->styleSheet();		//当前样式表
+		//QLatin1String只保存了地址和长度，比QString开销小
 		styleSheet += QLatin1String(file.readAll());	//将文件的内容和现有的样式表进行合并
 		setStyleSheet(styleSheet);						//设置样式表
 	}

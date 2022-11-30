@@ -1,9 +1,1 @@
-﻿  main.cpp
-  QtQQ_Server.cpp
-  TcpServer.cpp
-  TcpSocket.cpp
-  qrc_QtQQ_Server.cpp
-  moc_QtQQ_Server.cpp
-  moc_TcpServer.cpp
-  moc_TcpSocket.cpp
-  QtQQ_Server.vcxproj -> D:\QtProject\QtQQ\QtQQ_Server\x64\Debug\QtQQ_Server.exe
+﻿  QtQQ_Server.vcxproj -> E:\Qt_MyselfProject\QtQQ\QtQQ_Server\x64\Debug\QtQQ_Server.exe
