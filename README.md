@@ -28,18 +28,25 @@
 
 # 🌰运行效果
 `login`
+
 ![](qtqq_images/login.png)
 
 `MainWindow`
+
 ![](qtqq_images/mainwindow.png)
+
 ![](qtqq_images/mainwindow1.png)
 
 `talkwindow`
+
 ![](qtqq_images/talkwindow.png)
+
 ![](qtqq_images/talkwindow1.png)
 
 `server`
+
 ![](qtqq_images/server.png)
+
 ![](qtqq_images/server1.png)
 
 # 声明
