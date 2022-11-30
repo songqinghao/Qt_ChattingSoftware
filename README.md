@@ -7,7 +7,9 @@
 # 🍎编译环境
 
 0.win10
+
 1.VS2017 x64
+
 2.Qt5.12.1 MSVC 2017
 
 3.MySQL 8.0.30
@@ -22,7 +24,7 @@
 3.遇到error starting process /uic：
 将项目属性——>链接器——>常规——>附加库目录加上$(QTDIR)\LIB
 
-注意：本项目的Qt modules在项目属性——》Qt Project Setting——>Qt modules中可以编辑
+注意：本项目的Qt modules在项目属性——>Qt Project Setting——>Qt modules中可以编辑
 
 4.数据库表中头像路径需要改成你的图像保存路径
 
