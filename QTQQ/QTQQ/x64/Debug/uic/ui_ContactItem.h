@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ContactItem.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -91,8 +91,8 @@ public:
 
     void retranslateUi(QWidget *ContactItem)
     {
-        ContactItem->setWindowTitle(QApplication::translate("ContactItem", "ContactItem", nullptr));
-        label->setText(QApplication::translate("ContactItem", "TextLabel", nullptr));
+        ContactItem->setWindowTitle(QCoreApplication::translate("ContactItem", "ContactItem", nullptr));
+        label->setText(QCoreApplication::translate("ContactItem", "TextLabel", nullptr));
         userName->setText(QString());
         signName->setText(QString());
     } // retranslateUi

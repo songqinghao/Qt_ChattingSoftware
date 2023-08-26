@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'EmotionWindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -106,7 +106,7 @@ public:
 
     void retranslateUi(QWidget *EmotionWindow)
     {
-        EmotionWindow->setWindowTitle(QApplication::translate("EmotionWindow", "EmotionWindow", nullptr));
+        EmotionWindow->setWindowTitle(QCoreApplication::translate("EmotionWindow", "EmotionWindow", nullptr));
     } // retranslateUi
 
 };

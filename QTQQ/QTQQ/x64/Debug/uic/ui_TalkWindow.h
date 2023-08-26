@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'TalkWindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -411,15 +411,15 @@ public:
 
     void retranslateUi(QWidget *TalkWindow)
     {
-        TalkWindow->setWindowTitle(QApplication::translate("TalkWindow", "TalkWindow", nullptr));
+        TalkWindow->setWindowTitle(QCoreApplication::translate("TalkWindow", "TalkWindow", nullptr));
         nameLabel->setText(QString());
-#ifndef QT_NO_TOOLTIP
-        sysmin->setToolTip(QApplication::translate("TalkWindow", "\346\234\200\345\260\217\345\214\226", nullptr));
-#endif // QT_NO_TOOLTIP
+#if QT_CONFIG(tooltip)
+        sysmin->setToolTip(QCoreApplication::translate("TalkWindow", "\346\234\200\345\260\217\345\214\226", nullptr));
+#endif // QT_CONFIG(tooltip)
         sysmin->setText(QString());
-#ifndef QT_NO_TOOLTIP
-        sysclose->setToolTip(QApplication::translate("TalkWindow", "\345\205\263\351\227\255", nullptr));
-#endif // QT_NO_TOOLTIP
+#if QT_CONFIG(tooltip)
+        sysclose->setToolTip(QCoreApplication::translate("TalkWindow", "\345\205\263\351\227\255", nullptr));
+#endif // QT_CONFIG(tooltip)
         sysclose->setText(QString());
         signLabel->setText(QString());
         addtoolbtn->setText(QString());
@@ -429,8 +429,8 @@ public:
         toolsetBtn->setText(QString());
         faceBtn->setText(QString());
         fileopenBtn->setText(QString());
-        closeBtn->setText(QApplication::translate("TalkWindow", "\345\205\263\351\227\255", nullptr));
-        sendBtn->setText(QApplication::translate("TalkWindow", "\345\217\221\351\200\201", nullptr));
+        closeBtn->setText(QCoreApplication::translate("TalkWindow", "\345\205\263\351\227\255", nullptr));
+        sendBtn->setText(QCoreApplication::translate("TalkWindow", "\345\217\221\351\200\201", nullptr));
     } // retranslateUi
 
 };

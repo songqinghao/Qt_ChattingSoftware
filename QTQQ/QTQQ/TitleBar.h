@@ -22,7 +22,7 @@ public:
 	~TitleBar();
 
 	void setTitleIcon(const QString& filePath);						//设置标题栏图标(参数为文件路径)
-	void setTitleContent(const QString& titleContent);				//设置标题狼内容 
+	void setTitleContent(const QString& titleContent);				//设置标题栏内容 
 	void setTitleWidth(int width);									//设置标题栏长度
 	void setButtonType(ButtonType buttontype);						//设置标题栏按钮类型
 
@@ -72,7 +72,7 @@ private:
 
 	//移动窗口的变量，点击窗口的标题栏拖动
 	bool m_isPressed;        //是否点击
-	QPoint m_startMovePos;	 //是否移动~
+	QPoint m_startMovePos;	 //是否移动
 
 	QString m_titleContent;		//标题栏内容
 	ButtonType m_buttonType;	//标题栏右上角按钮类型

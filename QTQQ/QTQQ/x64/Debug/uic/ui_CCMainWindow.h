@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'CCMainWindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -417,18 +417,18 @@ public:
 
     void retranslateUi(QWidget *CCMainWindowClass)
     {
-        CCMainWindowClass->setWindowTitle(QApplication::translate("CCMainWindowClass", "CCMainWindow", nullptr));
+        CCMainWindowClass->setWindowTitle(QCoreApplication::translate("CCMainWindowClass", "CCMainWindow", nullptr));
         titleIcon->setText(QString());
         palcehold1->setText(QString());
         placehold2->setText(QString());
         sysmin->setText(QString());
         sysclose->setText(QString());
         headLabel->setText(QString());
-        nameLabel->setText(QApplication::translate("CCMainWindowClass", "\345\245\207\345\245\207-\345\267\245\344\275\234\345\217\267", nullptr));
+        nameLabel->setText(QCoreApplication::translate("CCMainWindowClass", "\345\245\207\345\245\207-\345\267\245\344\275\234\345\217\267", nullptr));
         statusBtn->setText(QString());
         levelBtn->setText(QString());
-        lineEdit->setPlaceholderText(QApplication::translate("CCMainWindowClass", "\344\270\252\346\200\247\347\255\276\345\220\215", nullptr));
-        searchLineEdit->setPlaceholderText(QApplication::translate("CCMainWindowClass", "\346\220\234\347\264\242\350\201\224\347\263\273\344\272\272\343\200\201\347\276\244", nullptr));
+        lineEdit->setPlaceholderText(QCoreApplication::translate("CCMainWindowClass", "\344\270\252\346\200\247\347\255\276\345\220\215", nullptr));
+        searchLineEdit->setPlaceholderText(QCoreApplication::translate("CCMainWindowClass", "\346\220\234\347\264\242\350\201\224\347\263\273\344\272\272\343\200\201\347\276\244", nullptr));
         searchBtn->setText(QString());
         bottomBtn_1->setText(QString());
         bottomBtn_2->setText(QString());
@@ -436,7 +436,7 @@ public:
         bottomBtn_5->setText(QString());
         bottomBtn_4->setText(QString());
         bottomBtn_6->setText(QString());
-        bottomBtn_7->setText(QApplication::translate("CCMainWindowClass", "\345\272\224\347\224\250\345\256\235", nullptr));
+        bottomBtn_7->setText(QCoreApplication::translate("CCMainWindowClass", "\345\272\224\347\224\250\345\256\235", nullptr));
     } // retranslateUi
 
 };

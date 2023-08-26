@@ -8,13 +8,14 @@ class BasicWindow : public QDialog
 
 public:
 	BasicWindow(QWidget *parent=nullptr);
+	//作为父部件析构函数要使用virtual
 	virtual ~BasicWindow();
 public:
 	//加载样式表（窗体的外观风格）
 	void loadStyleSheet(const QString& sheetName);
 
 	//获取圆头像
-	QPixmap getRoundImage(const QPixmap& src, QPixmap& mask, QSize masksize = QSize(0, 0));
+	QPixmap getRoundImage(const QPixmap& src, QPixmap& mask, QSize maskSize = QSize(0, 0));
 private:
 	void initBackGroundColor();//初始化背景
 protected:

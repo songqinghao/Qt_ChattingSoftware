@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'TalkWindowShell.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -91,7 +91,7 @@ public:
 
     void retranslateUi(QWidget *TalkWindowClass)
     {
-        TalkWindowClass->setWindowTitle(QApplication::translate("TalkWindowClass", "TalkWindowShell", nullptr));
+        TalkWindowClass->setWindowTitle(QCoreApplication::translate("TalkWindowClass", "TalkWindowShell", nullptr));
     } // retranslateUi
 
 };

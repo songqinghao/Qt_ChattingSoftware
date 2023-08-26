@@ -4,7 +4,7 @@
 #include<QSize>
 #include<QProxyStyle>
 
-//改变默认的部件风格
+//改变系统默认的部件风格
 class CustomProxyStyle:public QProxyStyle {
 public:
 	CustomProxyStyle(QObject* parent) {

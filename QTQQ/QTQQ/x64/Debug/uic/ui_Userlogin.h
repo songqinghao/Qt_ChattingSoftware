@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'Userlogin.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -200,13 +200,13 @@ public:
 
     void retranslateUi(QWidget *Userlogin)
     {
-        Userlogin->setWindowTitle(QApplication::translate("Userlogin", "Userlogin", nullptr));
-        editUserAccount->setPlaceholderText(QApplication::translate("Userlogin", "\350\257\267\350\276\223\345\205\245\350\264\246\345\217\267", nullptr));
-        editPassword->setPlaceholderText(QApplication::translate("Userlogin", "\350\257\267\350\276\223\345\205\245\345\257\206\347\240\201", nullptr));
-        checkBox->setText(QApplication::translate("Userlogin", "\350\256\260\344\275\217\345\257\206\347\240\201", nullptr));
-        forgetWordbtn->setText(QApplication::translate("Userlogin", "\345\277\230\350\256\260\345\257\206\347\240\201", nullptr));
-        registBtn->setText(QApplication::translate("Userlogin", "\346\263\250\345\206\214", nullptr));
-        loginBtn->setText(QApplication::translate("Userlogin", "\347\231\273\345\275\225", nullptr));
+        Userlogin->setWindowTitle(QCoreApplication::translate("Userlogin", "Userlogin", nullptr));
+        editUserAccount->setPlaceholderText(QCoreApplication::translate("Userlogin", "\350\257\267\350\276\223\345\205\245\350\264\246\345\217\267", nullptr));
+        editPassword->setPlaceholderText(QCoreApplication::translate("Userlogin", "\350\257\267\350\276\223\345\205\245\345\257\206\347\240\201", nullptr));
+        checkBox->setText(QCoreApplication::translate("Userlogin", "\350\256\260\344\275\217\345\257\206\347\240\201", nullptr));
+        forgetWordbtn->setText(QCoreApplication::translate("Userlogin", "\345\277\230\350\256\260\345\257\206\347\240\201", nullptr));
+        registBtn->setText(QCoreApplication::translate("Userlogin", "\346\263\250\345\206\214", nullptr));
+        loginBtn->setText(QCoreApplication::translate("Userlogin", "\347\231\273\345\275\225", nullptr));
     } // retranslateUi
 
 };

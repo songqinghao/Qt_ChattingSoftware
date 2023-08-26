@@ -46,7 +46,7 @@ void BasicWindow::setTitleBarTitle(const QString& title, const QString&icon) {
 void BasicWindow::initTitleBar(ButtonType buttonType) {
 	_titleBar = new TitleBar(this);
 	_titleBar->setButtonType(buttonType);//设置按钮类型
-	_titleBar->move(0, 0);				//将窗口调整到0，0
+	_titleBar->move(0, 0);				//将窗口调整到0，0(相对于父部件)
 
 	//各个信号与槽连接的建立
 	connect(_titleBar, SIGNAL(signalButtonMinClicked()), this, SLOT(onButtonMinClicked()));
@@ -177,7 +177,7 @@ void BasicWindow::mouseMoveEvent(QMouseEvent* event) {
 void BasicWindow::mousePressEvent(QMouseEvent* event) {
 	if (event->button() == Qt::LeftButton) {
 		m_mousePressed = true;
-		//pos事件发生时相对于窗口左上角的偏移坐标
+		//pos:事件发生时相对于窗口左上角的偏移坐标
 		m_mousePoint = event->globalPos() - pos();
 		event->accept();
 	}
@@ -201,6 +201,7 @@ void BasicWindow::onButtonMinClicked() {
 void BasicWindow::onButtonRestoreClicked() {
 	QPoint windowPos;
 	QSize windowSize;
+	//获取到原来的窗口的位置以及大小进行设置
 	_titleBar->getRestoreInfo(windowPos, windowSize);
 	//设置几何属性
 	setGeometry(QRect(windowPos, windowSize));

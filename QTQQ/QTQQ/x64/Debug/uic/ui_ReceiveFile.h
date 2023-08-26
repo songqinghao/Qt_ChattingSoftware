@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ReceiveFile.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -63,10 +63,10 @@ public:
 
     void retranslateUi(QWidget *ReceiveFile)
     {
-        ReceiveFile->setWindowTitle(QApplication::translate("ReceiveFile", "ReceiveFile", nullptr));
-        label->setText(QApplication::translate("ReceiveFile", "\346\235\245\350\207\252xxx\345\217\221\346\235\245\347\232\204\346\226\207\344\273\266\357\274\214\346\230\257\345\220\246\346\216\245\346\224\266\357\274\237", nullptr));
-        okBtn->setText(QApplication::translate("ReceiveFile", "\347\241\256\345\256\232", nullptr));
-        cancelBtn->setText(QApplication::translate("ReceiveFile", "\345\217\226\346\266\210", nullptr));
+        ReceiveFile->setWindowTitle(QCoreApplication::translate("ReceiveFile", "ReceiveFile", nullptr));
+        label->setText(QCoreApplication::translate("ReceiveFile", "\346\235\245\350\207\252xxx\345\217\221\346\235\245\347\232\204\346\226\207\344\273\266\357\274\214\346\230\257\345\220\246\346\216\245\346\224\266\357\274\237", nullptr));
+        okBtn->setText(QCoreApplication::translate("ReceiveFile", "\347\241\256\345\256\232", nullptr));
+        cancelBtn->setText(QCoreApplication::translate("ReceiveFile", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
 };

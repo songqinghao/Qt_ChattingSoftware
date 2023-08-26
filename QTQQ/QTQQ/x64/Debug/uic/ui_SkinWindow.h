@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'SkinWindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -116,7 +116,7 @@ public:
 
     void retranslateUi(QWidget *SkinWindow)
     {
-        SkinWindow->setWindowTitle(QApplication::translate("SkinWindow", "SkinWindow", nullptr));
+        SkinWindow->setWindowTitle(QCoreApplication::translate("SkinWindow", "SkinWindow", nullptr));
         titleIcon->setText(QString());
         sysmin->setText(QString());
         sysclose->setText(QString());

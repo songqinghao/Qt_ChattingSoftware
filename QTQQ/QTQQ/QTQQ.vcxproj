@@ -49,11 +49,12 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
-      <AdditionalLibraryDirectories> $(QTDIR)\LIB</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(QTDIR)\LIB;C:\Program Files\MySQL\MySQL Server 8.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
-    <QtInstall>Qt5.12.1</QtInstall>
+    <QtInstall>5.14.1_msvc2017_64</QtInstall>
     <QtModules>core;gui;network;sql;webchannel;webengine;webenginewidgets;xml</QtModules>
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>

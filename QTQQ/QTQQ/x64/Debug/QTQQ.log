@@ -1,1 +1,5 @@
-﻿  QTQQ.vcxproj -> E:\Qt_MyselfProject\QtQQ\QTQQ\x64\Debug\QTQQ.exe
+﻿  uic Userlogin.ui
+  Userlogin.cpp
+  main.cpp
+  moc_Userlogin.cpp
+  QTQQ.vcxproj -> D:\QtProject\Qt_ChattingSoftware\QTQQ\x64\Debug\QTQQ.exe

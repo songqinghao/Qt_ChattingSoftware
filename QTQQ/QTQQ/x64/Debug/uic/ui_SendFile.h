@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'SendFile.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -63,9 +63,9 @@ public:
 
     void retranslateUi(QWidget *SendFile)
     {
-        SendFile->setWindowTitle(QApplication::translate("SendFile", "SendFile", nullptr));
-        openBtn->setText(QApplication::translate("SendFile", "\346\211\223\345\274\200...", nullptr));
-        sendBtn->setText(QApplication::translate("SendFile", "\345\217\221\351\200\201", nullptr));
+        SendFile->setWindowTitle(QCoreApplication::translate("SendFile", "SendFile", nullptr));
+        openBtn->setText(QCoreApplication::translate("SendFile", "\346\211\223\345\274\200...", nullptr));
+        sendBtn->setText(QCoreApplication::translate("SendFile", "\345\217\221\351\200\201", nullptr));
     } // retranslateUi
 
 };

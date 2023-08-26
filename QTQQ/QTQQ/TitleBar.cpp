@@ -3,6 +3,8 @@
 #include<QPainter>
 #include<QMouseEvent>
 #include<QFile>
+#include<QDebug>
+//预编译，预设置
 #define BUTTON_HEIGHT 27	//按钮高度
 #define BUTTON_WIDTH  27	//按钮宽度
 #define TITLE_HEIGHT  27	//标题栏高度
@@ -144,6 +146,7 @@ void TitleBar::paintEvent(QPaintEvent* event) {
 	QPainter painter(this);
 	QPainterPath pathBack;					//绘图路径
 	pathBack.setFillRule(Qt::WindingFill);	//设置填充规则
+	//x斜率和y斜率为3
 	pathBack.addRoundedRect(QRect(0, 0, width(), height()), 3, 3);  //添加圆角矩形到绘图路径
 	painter.setRenderHint(QPainter::SmoothPixmapTransform, true);   //像素转换采用平滑的像素转换（渲染）
 
@@ -163,7 +166,7 @@ void TitleBar::mouseDoubleClickEvent(QMouseEvent* event) {
 
 	//必须存在最大化和最小化的按钮时才有效
 	if (m_buttonType == MIN_MAX_BUTTON) {
-		//如果最大键可见的话就放大（说明是小化的就可以放大）
+		//如果最大化键可见的话就放大（说明是小化的就可以放大）
 		if (m_pButtonMax->isVisible()) {
 			onButtonMaxClicked();
 		}
@@ -188,17 +191,22 @@ void TitleBar::mousePressEvent(QMouseEvent*event) {
 		m_isPressed = true;
 		m_startMovePos = event->globalPos();
 	}
-
+	
 	return QWidget::mousePressEvent(event);
 }
 
 //鼠标移动事件
 void TitleBar::mouseMoveEvent(QMouseEvent* event) {
 	if (m_isPressed) {
+		//鼠标全局坐标相对于原来偏移了多少
 		QPoint movePoint = event->globalPos()-m_startMovePos;//返回值就是移动多少
+		//获取父部件的全局坐标
 		QPoint widgetPos = parentWidget()->pos();
 		m_startMovePos = event->globalPos();
 		parentWidget()->move(widgetPos.x() + movePoint.x(),widgetPos.y()+movePoint.y());//父部件进行移动
+		//parentWidget()->move(movePoint.x(), movePoint.y());//父部件进行移动
+		//qDebug() << "parentWidget()->pos();" << widgetPos.x() << " " << widgetPos.y();
+		//qDebug() << "global;" << event->globalPos().x() << " " << event->globalPos().y();
 	}
 	return QWidget::mouseMoveEvent(event);
 }

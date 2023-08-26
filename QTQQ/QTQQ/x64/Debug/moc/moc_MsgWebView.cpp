@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'MsgWebView.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.14.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../../../MsgWebView.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'MsgWebView.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.12.1. It"
+#error "This file was generated using the moc from 5.14.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -128,7 +129,7 @@ void MsgHtmlObj::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 }
 
 QT_INIT_METAOBJECT const QMetaObject MsgHtmlObj::staticMetaObject = { {
-    &QObject::staticMetaObject,
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
     qt_meta_stringdata_MsgHtmlObj.data,
     qt_meta_data_MsgHtmlObj,
     qt_static_metacall,
@@ -165,7 +166,7 @@ int MsgHtmlObj::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 1;
     }
 #ifndef QT_NO_PROPERTIES
-   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
         _id -= 2;
@@ -187,7 +188,7 @@ int MsgHtmlObj::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void MsgHtmlObj::signalMsgHtml(const QString & _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 struct qt_meta_stringdata_MsgWebPage_t {
@@ -233,7 +234,7 @@ void MsgWebPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 }
 
 QT_INIT_METAOBJECT const QMetaObject MsgWebPage::staticMetaObject = { {
-    &QWebEnginePage::staticMetaObject,
+    QMetaObject::SuperData::link<QWebEnginePage::staticMetaObject>(),
     qt_meta_stringdata_MsgWebPage.data,
     qt_meta_data_MsgWebPage,
     qt_static_metacall,
@@ -333,7 +334,7 @@ void MsgWebView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 }
 
 QT_INIT_METAOBJECT const QMetaObject MsgWebView::staticMetaObject = { {
-    &QWebEngineView::staticMetaObject,
+    QMetaObject::SuperData::link<QWebEngineView::staticMetaObject>(),
     qt_meta_stringdata_MsgWebView.data,
     qt_meta_data_MsgWebView,
     qt_static_metacall,
@@ -375,7 +376,7 @@ int MsgWebView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void MsgWebView::signalSendMsg(QString & _t1, int & _t2, QString _t3)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP
