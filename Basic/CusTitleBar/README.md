@@ -94,7 +94,7 @@ hide()以后，可以通过show，对窗口重新进行显示。
 
 最小化：
 
-![image-20230826174049627](C:\Users\sqh\AppData\Roaming\Typora\typora-user-images\image-20230826174049627.png)
+![image-20230826174049627](../../qtqq_images/titlebarTec2.png)
 
 
 
@@ -175,7 +175,7 @@ void TitleBar::mouseReleaseEvent(QMouseEvent* event) {
 
 
 
-![image-20230825220642966](C:\Users\sqh\AppData\Roaming\Typora\typora-user-images\image-20230825220642966.png)
+![image-20230825220642966](../../qtqq_images/titlebarTec1.png)
 
 需要注意的是：
 
@@ -335,6 +335,12 @@ void BasicWindow::loadStyleSheet(const QString& sheetName) {
 	file.close();
 }
 ```
+
+
+
+![image-20230826205902522](../../qtqq_images/titlebarTec3.png)
+
+
 
 
 
