@@ -6,6 +6,8 @@
 
 一般来说标题栏主要有【图标显示】、【缩小、还原/放大、关闭】以及【鼠标拖动功能】三大功能
 
+
+
 ### 缩小,还原/放大,关闭按钮布局
 
 对于【图标显示】以及【缩小、还原/放大、关闭】功能，可以将其看作一个widget，在窗口的开始部分将图标(icon)、titleContent以及各种按钮放在一个水平布局中，在此要注意的是可以将icon和各种按钮的宽高具体设置，而`titleContent设置为水平可扩展，垂直固定`，这样就可以完整的填充Title部分
@@ -252,6 +254,8 @@ void BasicWindow::mouseReleaseEvent(QMouseEvent*event) {
 	m_mousePressed = false;
 }
 ```
+
+![image-20230829211800361](C:\Users\sqh\AppData\Roaming\Typora\typora-user-images\image-20230829211800361.png)
 
 ### TitleBar信号相对应的槽函数
 
