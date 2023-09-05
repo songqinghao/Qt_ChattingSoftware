@@ -1,3 +1,7 @@
+[toc]
+
+
+
 # 窗口设计及属性基础知识
 
 ## 基础知识
@@ -19,4 +23,12 @@
 ​	update()函数不会立即进行重绘，要等到Qt返回主事件循环后才会进行，所以多次调用update()函数一般只会引起一次paintEvent()函数调用。
 
 ​	在程序开始运行时就会自动发送重绘事件而调用paintEvent()函数，另外，不要在paintEvent()函数中调用update()或者repaint()函数。
+
+4、void setAutoFillBackground(bool enabled)
+
+画图的先后顺序是很重要的，你先画一条线，再画背景的话，会遮盖住下面的线条。而该属性值就是保证在widget触发paintEvent事件之前先填充好背景。
+
+
+
+# 路径问题
 
